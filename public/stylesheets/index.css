@@ -1,0 +1,72 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+  background-color: #f40;
+	position: relative;
+	overflow: hidden;
+}
+.title {
+	margin: 35% auto;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+}
+.order-btn {
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+}
+.order-btn button {
+}
+@keyframes bgc {
+	from {background-color: transparent}
+	to {background-color: yellowgreen;}
+}
+@-webkit-keyframes bgc {
+	from {background-color: transparent}
+	to {background-color: yellowgreen;}
+}
+
+@-webkit-keyframes shakeBtn {
+  0%, 75% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  80%, 95%{
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  85%, 100% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+@keyframes shakeBtn {
+  0%, 75%  {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  80%, 95% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  85%, 100% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+.shake2 {
+  -webkit-animation: shakeBtn 3s 5s infinite ;
+  animation: shakeBtn 3s 5s infinite ;
+}
