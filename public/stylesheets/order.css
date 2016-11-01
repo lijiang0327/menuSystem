@@ -73,6 +73,9 @@ li {
 .footer .container {
 	padding: 0;
 }
+.order-btn button {
+	border-radius: 0;
+}
 .cart {
 	width: 5rem;
 	height: 5rem;
@@ -87,6 +90,12 @@ li {
 	margin-top: 0.8rem;
 	margin-left: 0.8rem;
 	color: #999;
+}
+.cart.current {
+	background-color: #6495ED;
+}
+.cart.current i {
+	color: #e4e4e4;
 }
 .total-charge {
 	margin-left: 8rem;
@@ -133,18 +142,42 @@ li {
 .menu-category li{
 	height: 4rem;
 	background-color: #EAEAEA;
-	border-top: 0.1rem solid #E5E5E5;
+	border-bottom: 0.1rem solid #E0E0E0;
 	border-left: 0.3rem solid #EAEAEA;
+	position: relative;
+}
+.menu-category li a {
+	color: #6495ED;
+}
+.menu-category li a.focus,
+.menu-category li a.hover {
+	color: #6495ED;
 }
 .menu-category .current {
 	background-color: #fff;
-	border-left: 0.3rem solid #36648B;
+	border-left: 0.3rem solid #6495ED;	/*#36648B;*/
+}
+.menu-category .current a {
+	color: #333;
+	font-weight: 400;
 }
 .menu-category li a {
 	height: 100%;
 	padding: 0;
 	line-height: 4rem;
 	font-size: 1.2rem;
+}
+.menu-category li span {
+	position: absolute;
+	width: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	background-color: #ff461d;
+	border-radius: 50%;
+	right: .3rem;
+	top: 0.3rem;
+	color: #e4e4e4;
+	font-weight: 600;
 }
 .menu-content-head {
 	background-color: #e4e4e4;
@@ -204,6 +237,19 @@ li {
 	font-weight: 800;
 	
 }
-.add {
-	margin-right: 5rem;
+.add-btn {
+	margin-right: 3rem;
+	margin-top: 0;
+}
+.add-btn i, .add-btn span {
+	vertical-align: middle;
+	display: inline-block;
+}
+.add-btn .sub {
+	margin-right: 0.5rem;
+}
+.add-btn span {
+	margin-right: 0.5rem;
+	font-size: 1.4rem;
+	padding-top: 0.3rem;
 }
