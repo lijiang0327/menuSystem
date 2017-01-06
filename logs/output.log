@@ -1,0 +1,163 @@
+
+
+Starting Menu system...
+8009
+Clustering enable: Spinning up 1 process(es).
+
+8009
+
+
+Starting Menu system...
+8009
+Clustering enable: Spinning up 1 process(es).
+
+8009
+158
+
+
+Starting Menu system...
+8009
+Clustering enable: Spinning up 1 process(es).
+
+8009
+158
+11
+
+
+Starting Menu system...
+8009
+Clustering enable: Spinning up 1 process(es).
+
+8009
+158
+
+
+Starting Menu system...
+Clustering enable: Spinning up 2 process(es).
+
+11
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[cluster] Child process (9512) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[cluster] Child process (2068) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[cluster] Child process (6672) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[cluster] Child process (8156) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[cluster] Child process (11088) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+[cluster] Child process (11712) has exited (code: 1, signal: null)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+[cluster] Spinning up another process...
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+11
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8009
+    at Object.exports._errnoException (util.js:893:11)
+    at exports._exceptionWithHostPort (util.js:916:20)
+    at Server.__dirname.Server.Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.__dirname.Server.Server.listen (net.js:1378:5)
+    at Object.<anonymous> (D:\code\menuSystem\app.js:14:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+6 restarts in 10 seconds, most likely an error on startup. Halting.
